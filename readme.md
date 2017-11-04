@@ -1,5 +1,4 @@
 # Indeksas
----
 The list of links that is displayed as html is generated based on what is in the indeksas.json file.
 
 The file follows this structure:
