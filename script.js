@@ -1,10 +1,17 @@
+// run init on window load
 window.addEventListener("load", init);
 DATA = "indeksas.json";
 
+/**
+ * Init - Bootstrap
+ */
 function init() {
     fetchLinks();
 }
 
+/**
+ * Fetch and parse json
+ */
 function fetchLinks() {
     var request;
     var groupObj;
@@ -24,6 +31,10 @@ function fetchLinks() {
     }
 }
 
+/**
+ * Loop through object, render returned html
+ * @param {*} obj 
+ */
 function renderLinks(obj) {
     var groupLength = obj.groups.length;
     var ul = document.getElementsByTagName("body")[0];
@@ -34,6 +45,10 @@ function renderLinks(obj) {
     }
 }
 
+/**
+ * Render each group separately, parse potential color codes
+ * @param {*} obj 
+ */
 function renderGroup(obj) {
     var origGroupName = Object.keys(obj)[0];
     var groupName = "";
@@ -61,6 +76,11 @@ function renderGroup(obj) {
     return html;
 }
 
+/**
+ * Render each item separately
+ * @param {*} obj 
+ * @param {*} col 
+ */
 function renderItem(obj, col) {
     var html = "";
     html = `<li style="border-left: 2px solid ${col}"><a href="${obj.url}"><img src="https://www.google.com/s2/favicons?domain=${obj.url}">${obj.name}</a></li>`;
