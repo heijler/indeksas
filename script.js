@@ -31,22 +31,7 @@ function renderLinks(obj) {
 
     for(i = 0; i < groupLength; i++) {
         ul.innerHTML += renderGroup(obj.groups[i]);
-        // console.log(renderGroup(obj.groups[i]));
     }
-
-
-    // console.dir(obj);
-    // console.log(obj.groups.length); // amount of groups
-    // console.log(obj.groups[0]); // one group
-
-    // // get groupname
-    // for (property in obj.groups[0]) {
-    //     console.log(property);
-    // }
-
-    // console.log(obj.groups[0].groupname0[0].name);
-    // console.log(obj.groups[0].groupname0[0].url);
-
 }
 
 function renderGroup(obj) {
@@ -72,13 +57,13 @@ function renderGroup(obj) {
     }
     html += '</ul';
     html += '</div>';
+
     return html;
 }
 
 function renderItem(obj, col) {
     var html = "";
     html = `<li style="border-left: 2px solid ${col}"><a href="${obj.url}"><img src="https://www.google.com/s2/favicons?domain=${obj.url}">${obj.name}</a></li>`;
+    
     return html;
 }
-
-// https://www.google.com/s2/favicons?domain=www.lisasdromtradgard.se
