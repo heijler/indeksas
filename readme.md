@@ -37,7 +37,7 @@ If you want the header to be a certain color, follow it with a hex color:
 "My Group Name#FF0000": [...]
 ```
 
-each item you add consists of object with a name and a url:
+each item you add consists of an object with a name and a url:
 
 ```
 {
