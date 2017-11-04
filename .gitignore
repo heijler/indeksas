@@ -4,7 +4,9 @@
 # Config Prepros files to ignore
 prepros.cfg
 prepros-6.config
-
 readme.html
-
 # End of https://www.gitignore.io/api/prepros
+
+### TODO ###
+todo.md
+todo.html
