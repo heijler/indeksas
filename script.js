@@ -37,7 +37,7 @@ function renderLinks(obj) {
 function renderGroup(obj) {
     var origGroupName = Object.keys(obj)[0];
     var groupName = "";
-    var color = "white";
+    var color = "#fff";
     var itemArrLength = obj[origGroupName].length;
     var html = "";
     var i;
@@ -64,6 +64,6 @@ function renderGroup(obj) {
 function renderItem(obj, col) {
     var html = "";
     html = `<li style="border-left: 2px solid ${col}"><a href="${obj.url}"><img src="https://www.google.com/s2/favicons?domain=${obj.url}">${obj.name}</a></li>`;
-    
+
     return html;
 }
