@@ -1,27 +1,27 @@
 {
     "groups": [
         {
-            "Uni#ffea00": [
+            "My first group#ffea00": [
                 {
-                    "name": "LNU",
-                    "url": "https://www.lnu.se"
-                },
-                {
-                    "name": "Coursepress SUPERLOOOOONG TITLE",
-                    "url": "https://coursepress.slack.com"
+                    "name": "Example",
+                    "url": "https://www.github.com"
                 },
                 {
                     "name": "Github",
                     "url": "https://www.github.com"
                 },
                 {
-                    "name": "Email",
-                    "url": "https://www.gmail.com"
+                    "name": "Github",
+                    "url": "https://www.github.com"
+                },
+                {
+                    "name": "Wiki",
+                    "url": "https://www.wikipedia.org"
                 }
             ]
         },
         {
-            "Best thing ever#0acbff": [
+            "Best second category#0acbff": [
                 {
                     "name": "Hello",
                     "url": "https://www.example.com"
@@ -29,10 +29,10 @@
             ]
         },
         {
-            "Pancake#e63dff": [
+            "Pancakes#e63dff": [
                 {
                     "name": "Pancakesite",
-                    "url": "https://www.pancake.io/"
+                    "url": "https://www.google.com"
                 }
             ]
         },
